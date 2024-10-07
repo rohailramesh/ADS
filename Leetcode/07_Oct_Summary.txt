@@ -1,0 +1,17 @@
+Completed two problems today:
+1- Contains duplicate -> given a list of numbers return true if there is any duplicate else return false
+
+Key learnings: used a hashmap (dict) to store each number as key (since key must be unique) and for value 1. In a loop, add each num from list in dict. If already in list then return true since the key value is already 1. Duplicate has been found
+
+Using a for loop and in keyword while using dictionary data structure was important in this question
+
+
+
+
+2- Is Anagram -> given two strings, return true of they are anagram else return false. Anagram is when two strings have exact same characters but order is different
+
+Key learnings: Different way of solving this but have to consider time and space complexity. First attempt was to sort both strings if lengths are same and then run a for loop through both sorted strings for the whole length of string. If the current value where the pointer is for both strings is equal for both strings than they are anagrams
+
+Second attempt was using hashmaps. Have two diccts for each strings and store the char as keys and for values a counter. Check at the end if both dicts have same counts for all their values and if so, return true
+
+When implementing counter in dicts, have to use get(value, default value = 0) so it gets the value for a key if exists or else gets the default value which is 0.
