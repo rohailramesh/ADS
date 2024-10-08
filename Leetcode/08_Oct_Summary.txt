@@ -1,0 +1,13 @@
+Completed two problems today:
+1- Concatenate n arrays -> concatenate an array to the end of the same array where length of array is n
+
+Key learnings: Using the built in append function, run an outer for loop n times (to make the length eqaul to the original array length * n) and inner loop which appends the current element at index i into the new array
+
+My attempt was to create a new array with length equal to length of original array x 2. Then run a first for loop that would copy over the element from old array to new array and for second loop start from n + 1 position in new array and add the current value at index i from old array
+
+
+
+
+2- Replace right element in array in max -> Given an array, replace the element with the greatest element on the right hand side of that number in the array and assign the last value of that array as -1. If length of array is 1, then just assign that as -1 and return the array
+
+Key learnings: Working with arrays in reverse order was more efficient in terms of time complexity as fewer elements would have to be compared. Assign rightMax as -1 at start and in a for loop working backwards in array, assign the max value from current value and the rightMax. Then assign the current value at index i the right max value and finally assign the rightMax as newMax.
