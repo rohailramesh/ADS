@@ -29,6 +29,7 @@ print(a,b,c,d,e)
 
 # looping through array using index
 array = [1,2,3,4,5]
+# array.remove()
 for i in range(len(array)):
     print(array[i])
     
@@ -72,3 +73,30 @@ print(string_arr)
 # using a lambda function and pass each value in array as x and find the length of x
 string_arr.sort(key= lambda x: len(x))
 print(string_arr)
+
+
+def wrongAns(N,C):
+    wrong_ans = []
+    for i in range(N):
+        print(C[i])
+        if C[i] == 'A':
+            wrong_ans.append('B')
+            print("".join(wrong_ans))   
+        else:
+            wrong_ans.append('A')
+            print("".join(wrong_ans))
+            
+        
+
+
+wrongAns(7, "ABAABAB")
+
+
+S = [1,2,3,4]
+if 7 not in S:
+     print(True)
+
+
+test_String = [6,8,1,3,0]
+reverse_string = test_String[::-1]
+print(reverse_string)
