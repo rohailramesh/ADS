@@ -1,7 +1,7 @@
 class Node:
     def __init__(self, data):
         self.data = data
-        self.next = None
+        self.next = None # initially it points to nothing
     
 
 class LinkedList:
@@ -55,7 +55,7 @@ class LinkedList:
             temp_head = temp_head.next
         temp_head.next = None
     
-    def search(self, value):
+    def search(self, value): # returns the position of the value in the list
         current_head = self.head
         current_position = 0
         while current_head:
