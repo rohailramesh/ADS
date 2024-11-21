@@ -1,36 +1,43 @@
-# These are dictionaries in python
-# no duplicate keys allows
-myMap = {}
-myMap["key1"] = "value1"
-myMap["key2"] = "value2"
-print(myMap)
-print(len(myMap)) #returns number of keys in map
+# demo_dict = {}
+# demo_dict['apple'] = 'red'
+# demo_dict['lemon'] = 'yellow'
+# demo_dict['carrot'] = 'orange'
+# for fruit in demo_dict.keys():
+#     print(fruit)
 
-myMap["key1"] = "val1"
-print(myMap)
-
-print("key1" in myMap) #returns true if key1 in dict
-
-myMap.pop("key1") #deletes the key and the value linekd to it in constant time
-
-# another way of adding key value pairs to hashmaps
-myMap2 = {"key1":"value1", "key2":"value2"}
-print(myMap2)
-
-# Dict comprehensions 
-myMap3 = {i: i*2 for i in range(5)}
-print(myMap3)
-
-# looping through maps and printing out the key and the value
-for key in myMap3:
-    print(key, myMap3[key])
-
-# looping through maps for both key and value but bit more concise
-for key, val in myMap3.items():
-    print(key, val)
+# for fruit_colors in demo_dict.values():
+#     print(fruit_colors)
     
-# looping through only the values in hashmap 
-for value in myMap3.values():
-    print(value)
+# for fruit, fruit_color in demo_dict.items():
+#     print(fruit, fruit_color)
+
+# demo_dict.get('carrt', 0)
+
+class Books:
+    def __init__(self, id, title, author, genre):
+        self.title = title
+        self.author = author
+        self.genre = genre
+        self.id = id
     
+    def __str__(self) -> str:
+        return f'{self.id}, {self.title}, {self.author}, {self.genre}'
     
+    def getAuthor(self):
+        return self.author
+
+book1 = Books("1","Me Before You", "Jojo Moyes", "Romance")
+book2 = Books("2","1984", "George Orwell", "Dystopian")
+book3 = Books("3","The Great Gatsby", "F. Scott Fitzgerald", "Classic")
+
+
+books_dict = {
+    book1.id : book1,
+    book2.id : book2,
+    book3.id : book3
+}
+
+print(books_dict['1'].getAuthor())
+for book in books_dict.items():
+    print(book)
+
