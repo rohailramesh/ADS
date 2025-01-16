@@ -1,0 +1,150 @@
+--------------------------------------------
+DATABASE MANAGEMENT SYSTEM
+--------------------------------------------
+
+DBMS is a collection of ………….. that enables user to create and maintain a database.
+A) Keys
+B) Translators
+C) Program
+D) Language Activity
+
+In a relational schema, each tuple is divided into fields called
+A) Relations
+B) Domains
+C) Queries
+D) All of the above
+
+In an ER model, ……………. is described in the database by storing its data.
+A) Entity
+B) Attribute
+C) Relationship
+D) Notation
+
+DFD stands for
+A) Data Flow Document
+B) Data File Diagram
+C) Data Flow Diagram
+D) Non of the above
+
+A top-to-bottom relationship among the items in a database is established by a
+A) Hierarchical schema
+B) Network schema
+C) Relational Schema
+D) All of the above
+
+……………… table store information about database or about the system.
+A) SQL
+B) Nested
+C) System
+D) None of these
+
+…………..defines the structure of a relation which consists of a fixed set of attribute-domain pairs.
+A) Instance
+B) Schema
+c) Program
+D) Super Key
+
+……………… clause is an additional filter that is applied to the result.
+A) Select
+B) Group-by
+C) Having
+D) Order by
+
+A logical schema
+A) is the entire database
+B) is a standard way of organizing information into accessible parts.
+C) Describes how data is actually stored on disk.
+D) All of the above
+
+………………… is a full form of SQL.
+A) Standard query language
+B) Sequential query language
+C) Structured query language
+D) Server side query language
+
+Processed data is called ………………..
+A) Raw data
+B) Information
+C) Useful data
+D) Source
+
+…………….. is a utility to capture a continuous record of server activity and provide auditing
+capability.
+A) SQL server Profile
+B) SQL server service manager
+C) SQL server setup
+D) SQL server wizard.
+
+Data items grouped together for storage purposes are called a
+A) record
+B) title
+C) list
+D) string
+
+…………. contains data assisting day to day activities of the organization.
+A) Control database
+B) Operational database
+C) Strategic database
+D) Sequential database
+
+………………… approach reduces time and effort required for design and lesser risk in database
+management.
+A) Single global database
+B) Top-down approach
+C) Multiple databases
+D) None of the above
+
+HSAM stands for ……….
+A) Hierarchic Sequential Access Method
+B) Hierarchic Standard Access Method
+C) Hierarchic Sequential and Method
+D) Hierarchic Standard and Method
+
+SQL server stores index information in the ………… system table
+A) systindexes
+B) systemindexes
+C) sysind
+D) sysindexes
+
+The one guideline to be followed while designing the database is
+A) A database design may be ambiguous.
+B) Unrelated data should be in the same table so that updating the data will be easy.
+C) It should avoid/reduce the redundancy.
+D) An entity should not have attributes.
+
+Which of the following is not a logical database structure?
+A) Chain
+B) Network
+C) Tree
+D) Relational
+
+……………. is a preferred method for enforcing data integrity
+A) Constraints
+B) Stored procedure
+C) Triggers
+D) Cursors
+
+Answers:
+
+C) Program
+B) Domains
+A) Entity
+C) Data Flow Diagram
+A) Hierarchical schema
+C) System
+B) Schema
+C) Having
+B) is a standard …... accessible parts.
+C) Structured query language
+B) Information
+B) SQL server service manager
+A) record
+B) Operational database
+C) Multiple databases
+A) Hierarchic Sequential Access Method
+D) sysindexes
+C) It should avoid/reduce … redundancy.
+A) Chain
+A) Constraints
+
+

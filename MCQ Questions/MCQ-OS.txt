@@ -1,0 +1,168 @@
+--------------------------------------------
+OPERATING SYSTEM MCQs
+--------------------------------------------
+
+Which of the following is/ are the part of operating system?
+A) Kernel services
+B) Library services
+C) Application level services
+D) All of the above
+
+The system of ............... generally ran one job at a time. These were called single stream batch
+processing.
+A) 40's
+B) 50's
+C) 60's
+D) 70's
+
+In ............. generation of operating system, operating system designers develop the concept of
+multiprogramming in which several jobs are in main memory at once.
+A) First
+B) Second
+C) Third
+D) Fourth
+
+State True or False.
+i) In spooling high speed device like a disk is interposed between running program and low-speed device
+in Input/output.
+ii) By using spooling for example instead of writing directly to a printer, outputs are written to the disk.
+A) i-True, ii-False
+B) i-True, ii-True
+C) i-False, ii-True
+D) i-False, ii-False
+
+Which of the following is/are the functions of operating system?
+i) Sharing hardware among users. ii) Allowing users to share data among themselves.
+iii) Recovering from errors. iv) Preventing users from interfering with one another.
+v) Scheduling resources among users.
+A) i, ii, iii and iv only
+B) ii, iii, iv and v only
+C) i, iii, iv and v only
+D) All i, ii, iii, iv and v
+
+.................. executes must frequently and makes the fine grained decision of which process to
+execute the next.
+A) Long-term scheduling
+B) Medium-term scheduling
+C) Short-term scheduling
+D) None of the above
+
+With ................ a page is brought into main memory only when the reference is made to a location
+on that page.
+A) demand paging
+B) main paging
+C) prepaging
+D) postpaging
+
+....................... provides a larger sized of virtual memory but require virtual memory which provides
+multidimensional memory.
+A) Paging method
+B) Segmentation method
+C) Paging and segmentation method
+D) None of these
+
+............... is a large kernel containing virtually the complete operating system, including,
+scheduling, file system, device drivers and memory management.
+A) Multilithic kernel
+B) Monolithic kernel
+C) Micro kernel
+D) Macro kernel
+
+............... is a large operating system core provides a wide range of services.
+A) Multilithic kernel
+B) Monolithic kernel
+C) Micro kernel
+D) Macro kernel
+
+Which of the following is not the function of Microkernel?
+A) File management
+B) Low-level memory management
+C) Inter-process communication
+D) I/O interrupts management
+
+Match the following.
+i) Mutual exclusion a) A process may hold allocated resources while waiting assignment.
+ii) Hold and wait b) No resource can be forcibly removed from a process holding it.
+iii) No preemption c) Only one process may use a resource at a time.
+A) i-a, ii-b, iii-c
+B) i-a, ii-c, iii-b
+C) i-b, ii-c, iii-a
+D) i-c, ii-a, iii-b
+
+A direct method of deadlock prevention is to prevent the occurrences of ...................
+A) Mutual exclusion
+B) Hold and wait
+C) Circular waits
+D) No preemption
+
+The methods or algorithms which are used to increase the performance of disk storage sub-system
+is called .............
+A) Disk performing
+B) Disk scheduling
+C) Disk storing
+D) Disk extending
+
+................. is the time required to move the disk arm to the required track.
+A) Seek time
+B) Rotational delay
+C) Latency time
+D) Access time
+
+The ............... policy restricts scanning to one direction only.
+A) SCAN
+B) C-SCAN
+C) N-Step SCAN
+D) Both A and B
+
+............... policy selects the disk I/O request that requires the least movement of the disk arm
+from its current position.
+A) FSCAN
+B) SSTF
+C) SCAN
+D) C-SCAN
+
+.................. refers to the ability of an operating system to support multiple threads of execution
+with a single process.
+A) Multithreading
+B) Multiprocessing
+C) Multiexecuting
+D) Bi-threading
+
+State whether the following statement is true.
+i) It takes less time to terminate a thread than a process.
+ii) Threads enhance efficiency in communication between different executing programs.
+A) i-True, ii-False
+B) i-True, ii-True
+C) i-False, ii-True
+D) i-False, ii-False
+
+............ is a special type of programming language used to provide instructions to the monitor
+simple batch processing schema.
+A) Job control language (JCL)
+B) Processing control language (PCL)
+C) Batch control language (BCL)
+D) Monitor control language (MCL)
+
+Answers:
+
+D) All of the above
+B) 50's
+C) Third
+B) i-True, ii-True
+D) All i, ii, iii, iv and v
+C) Short-term scheduling
+A) demand paging
+B) Segmentation method
+B) Monolithic kernel
+D) Macro kernel
+A) File management
+D) i-c, ii-a, iii-b
+C) Circular waits
+B) Disk scheduling
+A) Seek time
+A) SCAN
+B) SSTF
+A) Multithreading
+B) i-True, ii-True
+A) Job control language (JCL)
+

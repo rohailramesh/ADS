@@ -1,0 +1,158 @@
+--------------------------------------------
+DATA STRUCTURE
+--------------------------------------------
+
+Which if the following is/are the levels of implementation of data structure
+A) Abstract level
+B) Application level
+C) Implementation level
+D) All of the above
+
+A binary search tree whose left subtree and right subtree differ in hight by at most 1 unit is called
+A) AVL tree
+B) Red-black tree
+C) Lemma tree
+D) None of the above
+
+……………….. level is where the model becomes compatible executable code
+A) Abstract level
+B) Application level
+C) Implementation level
+D) All of the above
+
+Stack is also called as
+A) Last in first out
+B) First in last out
+C) Last in last out
+D) First in first out
+
+Which of the following is true about the characteristics of abstract data types?
+i) It exports a type.
+ii) It exports a set of operations
+A) True, False
+B) False, True
+C) True, True
+D) False, False
+
+…………… is not the component of data structure.
+A) Operations
+B) Storage Structures
+C) Algorithms
+D) None of above
+
+Which of the following is not the part of ADT description?
+A) Data
+B) Operations
+C) Both of the above
+D) None of the above
+
+Inserting an item into the stack when stack is not full is called …………. Operation and deletion of
+item form the stack, when stack is not empty is called ………..operation.
+A) push, pop
+B) pop, push
+C) insert, delete
+D) delete, insert
+
+……………. Is a pile in which items are added at one end and removed from the other.
+A) Stack
+B) Queue
+C) List
+D) None of the above
+
+………… is very useful in situation when data have to stored and then retrieved in reverse order.
+A) Stack
+B) Queue
+C) List
+D) Link list
+
+Which of the following is not the type of queue?
+A) Ordinary queue
+B) Single ended queue
+C) Circular queue
+D) Priority queue
+
+The property of binary tree is
+A) The first subset is called left subtree
+B) The second subtree is called right subtree
+C) The root cannot contain NULL
+D) The right subtree can be empty
+
+State true or false.
+i) The degree of root node is always zero.
+ii) Nodes that are not root and not leaf are called as internal nodes.
+A) True, True
+B) True, False
+C) False, True
+D) False, False
+
+Any node is the path from the root to the node is called
+A) Successor node
+B) Ancestor node
+C) Internal node
+D) None of the above
+
+State true of false.
+i) A node is a parent if it has successor nodes.
+ii) A node is child node if out degree is one.
+A) True, True
+B) True, False
+C) False, True
+D) False, False
+
+………………. is not an operation performed on linear list
+a) Insertion b) Deletion c) Retrieval d) Traversal
+A) only a,b and c
+B) only a and b
+C) All of the above
+D) None of the above
+
+Which is/are the application(s) of stack
+A) Function calls
+B) Large number Arithmetic
+C) Evaluation of arithmetic expressions
+D) All of the above
+
+A …………… is an acyclic digraph, which has only one node with indegree 0, and other nodes have
+indegree 1.
+A) Directed tree
+B) Undirected tree
+C) Dis-joint tree
+D) Direction oriented tree
+
+…………………. Is a directed tree in which outdegree of each node is less than or equal to two.
+A) Unary tree
+B) Binary tree
+C) Dinary tree
+D) Both B and C
+
+State true or false.
+i) An empty tree is also a binary tree.
+ii) In strictly binary tree, the outdegree of every node is either o or 2.
+A) True, False
+B) False, True
+C) True, True
+D) False, False
+
+Answers:
+
+D) All of the above
+A) AVL tree
+C) Implementation level
+A) Last in first out
+C) True, True
+D) None of above
+D) None of the above
+A) push, pop
+B) Queue
+A) Stack
+B) Single ended queue
+D) The right subtree can be empty
+C) False, True
+B) Ancestor node
+B) True, False
+D) None of the above
+D) All of the above
+A) Directed tree
+B) Binary tree
+C) True, True
+
